@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- you can choose one of the different pencil classes implemented by the interface Pencil-->
+	<!-- By configuring and specifying config file changes here in xml, you don't have to modify anything in java codes --> 
+	
+	
+	<!-- <bean id="pencil" class="com.javalec.pencilEx.Pencil4B"/> -->
+	<!-- <bean id="pencil" class="com.javalec.pencilEx.Pencil6B"/> -->
+	<bean id="pencil" class="com.javalec.pencilEx.Pencil6BWithEraser"/>	<!--I will pick up 6B pencil-->
+
+
+</beans>
